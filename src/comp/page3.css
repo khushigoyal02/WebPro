@@ -1,0 +1,95 @@
+.page3 .col-md-4 h1{
+    font-size: 6vmin;
+    color: #333333;
+    font-family: "Montserrat";
+    width: 40vmin;
+    text-align: left;
+    margin-top: 17vmin;
+    margin-bottom: 5vmin;
+    margin-left: 25vmin;
+}
+
+.page3 .col-md-8{
+    background: linear-gradient(to bottom, #ee5d30 50%, #ffffff 50%);
+}
+
+.icon1, .icon2, .icon3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5vmin;
+    margin-top: 5vmin;
+}
+.icon1{
+    background-image: url(../images/highquality.png);
+}
+.icon2{
+    background-image: url(../images/compservices.png);
+}
+.icon3{
+    background-image: url(../images/strongnetwork.png);
+}
+
+.page3 .col-md-8{
+    display: flex;
+    justify-content: center;
+}
+
+.page3 .rect{
+    width: 35vmin;
+    margin-right: 7vmin;
+}
+
+.page3 .rect h1{
+    font-size: 4vmin;
+    margin-bottom: 10vmin;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+.page3 p{
+    font-size: 17px;
+    margin-bottom: 10vmin;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.extra{
+    height: 10vmin;
+}
+
+@media screen and (max-width:415px){
+    .page3 .col-md-4 h1{
+        text-align: center;
+        margin: auto;
+        padding-top: 10vmin;
+        padding-bottom: 5vmin;
+    }
+    .page3 .col-md-8{
+        background: linear-gradient(to bottom, #ee5d30 , #ee5d30);
+        display: block;
+    }
+    .page3 .rect{
+        width: 100%;
+        padding: 3vmin;
+    }
+    .icon1, .icon2, .icon3, .rect p{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .page3 .rect h1{
+        font-size: 20px;
+        display: inline-block;
+        margin:0 0 3vmin 5vmin;
+    }
+    .page3 .rect p{
+        color: white;
+        width: 100%;
+    }
+}

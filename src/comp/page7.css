@@ -1,0 +1,38 @@
+.page7{
+    margin-top: 5vmax;
+}
+
+.r1, .r2{
+    display: flex;
+}
+
+.page7 p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.page7 h1{
+    font-size: 6vmin;
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 5vmax;
+    margin-top: 5vmax;
+    margin-bottom: 3vmax;
+}
+
+.cd{
+    height: 350px;
+}
+
+@media screen and (max-width:415px){
+    .r1, .r2{
+        display: block;
+    }
+    .cd{
+        width: 90%;
+        height: auto;
+        margin-bottom: 10vmin;
+    }
+}
+

@@ -1,0 +1,31 @@
+.page4 {
+    background-color: #2f2339;
+}
+
+.page4 h1{
+    font-size: 6vmin;
+    font-family: "Montserrat";
+    margin: 7vmin 0;
+}
+
+.page4 b{
+    font-size: 17px;
+}
+
+.page4 .grid div{
+    font-size: 17px;
+    padding-bottom: 5vmin;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.page4 img{
+    height: 100%;
+    /*width: 100%;*/
+}
+
+@media screen and (max-width:415px){
+    .page4 .col{
+        width: 100%;
+    }
+}

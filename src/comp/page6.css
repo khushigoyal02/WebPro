@@ -1,0 +1,29 @@
+.page6 {
+    background-color: #ee5d30;
+}
+.page6 h1{
+    font-size: 6vmin;
+    font-family: "Montserrat";
+    margin-bottom: 10vmin;
+}
+
+.page6 .para{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+.page6 .col{
+    margin-bottom: 5vmin;
+}
+
+.page6 img{
+    height: 100%;
+    /*width: 100%;*/
+}
+
+@media screen and (max-width:415px){
+    .page6 .para{
+        width: 100%;
+    }
+}

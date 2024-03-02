@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Lemon Milkbold";
+    src: url(./images/LemonMilk.ttf);
+}
+@font-face {
+    font-family: "Lato";
+    src: url(./images/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(./images/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "Avant Garde CE";
+    src: url(./images/AvantGarde\ CE\ Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Lato";
+}
+.logo{
+    display: flex;
+}
+
+.logo h1{
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: "Lemon Milkbold";
+    display: inline-block;
+    font-size: 5vmin;
+    margin: 0;
+    padding-top: 1vmin;
+}
+
+ul{
+    font-family: "Lato";
+    color: #1a1a1a;
+}
+
+ul .last{
+    padding-right: 100px;
+}
+
+footer{
+    background-color: #2f2339;
+}
+
+button{
+    font-weight: 600;
+    font-family: "Avant Garde CE";
+    color: white;
+    border: none;
+}
+
+button:hover{
+    color: black;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+footer h3{
+    font-size: 25px;
+}
+
+footer ul{
+    font-size: 18px;
+}
+
+footer .first{
+    margin-left: 45vmin;
+}
+
+footer .box{
+    display: flex;
+}
+
+@media screen and (max-width:415px){
+    .logo img{
+        height: 8vmin;
+        width: 8vmin;
+    }
+    .extra{
+        display: none;
+    }
+    footer .first{
+        margin-left: 0;
+    }
+
+    footer .box{
+        display: block;
+    }
+
+    footer .col{
+        margin-bottom: 5vmin;
+    }
+}

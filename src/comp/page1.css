@@ -1,0 +1,35 @@
+.page1{
+    background-image: url(../images/man.png);
+    background-position: center;
+    background-color: #050505;
+    background-size: cover;
+}
+
+.page1 h1, .page1 p{
+    margin-left: 45vw;
+}
+
+.page1 h1{
+    font-size: 12vmin;
+    line-height: 10vmin;
+    font-family: "Montserrat";
+    padding-top: 30vmin;
+    padding-bottom: 3vmin;
+}
+.page1 p{
+    width: 35vmax;
+    font-size: 18px;
+    padding-bottom: 17vmin;
+    font-weight: 400;
+    font-family: "Lato";
+}
+
+@media screen and (max-width:415px){
+    .page1{
+        background-position: 0%;
+    }
+    .page1 h1, .page1 p, .page1 button{
+        text-align: center;
+        margin: auto;
+    }
+}

@@ -1,0 +1,100 @@
+.icon4, .icon5, .icon6{
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    filter: drop-shadow(4.5px 7.794px 21.5px rgba(0,0,0,0.07));
+    background-color: #ee5d30;
+    display: inline-block;
+    margin-right: 2vmin;
+    margin-left: 10vmin;
+}
+.icon4{
+    background-image: url(../images/Icon4.png);
+}
+.icon5{
+    background-image: url(../images/Icon5.png);
+}
+.icon6{
+    background-image: url(../images/Icon6.png);
+}
+.p81 h1{
+    color: #151515;
+    font-weight: 800;
+    font-family: "Lato";
+    font-size: 17px;
+    margin-bottom: 4vmin;
+    margin-left: 10vmin;
+}
+.page8b .text{
+    display: inline-block;
+}
+.page8b h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #141414;
+    font-weight: 700;
+    font-family: "Lato";
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.page8b h6{
+    font-size: 13px;
+    color: #585858;
+    font-weight: 400;
+    font-family: "Lato";
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.p82 h2{
+    color: #151515;
+    font-family: "Lato";
+    font-size: 17px;
+}
+.label{
+    font-size: 17px;
+    color: #585858;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-right: 2vmin;
+}
+.page8b input{
+    width: 25vmax;
+    height: 17px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #cacaca;
+    outline: none;
+}
+
+.msg .label{
+    margin-right: 10px;
+}
+
+.msg input{
+    margin: 30px 0;
+}
+
+.page8b button{
+    height: 7vmin;
+    width: 20vmin;
+    font-size: 2.7vmin;
+    background-color: #ee5d30;
+}
+
+@media screen and (max-width:415px){
+    .icon4, .icon5, .icon6{
+        margin-left: 0;
+    }
+    .p81 h1, .p81 h5, .p81 h6, .label{
+        font-weight: lighter;
+        margin-left: 0;
+    }
+    .page8b button{
+        height: 12vmin;
+    }
+}

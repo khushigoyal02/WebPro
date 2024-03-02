@@ -1,0 +1,52 @@
+.signin{
+    height: 38vmax;
+}
+.signin span{
+    margin-right: 10px;
+}
+.form-group{
+    font-size: 18px;
+}
+.form-group input{
+    background: transparent;
+}
+.signin .left{
+    padding: 5vmax 12vmax 2vmax 12vmax;
+    font-family: "Lato";
+    font-size: 18px;
+
+}
+.signin h3{
+    font-family: "Lato";
+}
+.signin .main{
+    height: 7vmin;
+    width: 25vmin;
+    background-color: #2f2339;
+    outline: none;
+    border: none;
+}
+
+.signin .change{
+    background-color: transparent;
+    font-weight: 0;
+    font-family: "Lato";
+}
+
+.signin .right{
+    background-color: #ee5d30;
+}
+
+.signin-text{
+    font-size: 4vmin;
+    margin-top: 5vmin;
+}
+
+@media screen and (max-width:415px){
+    .signin{
+        height: auto;
+    }
+    .signin .left{
+        margin: 0;
+    }
+}

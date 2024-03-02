@@ -1,0 +1,33 @@
+.page5{
+    background: linear-gradient(to bottom, #ffffff, #ffffff 25%, #ee5d30 25%, #ee5d30 75%, #ffffff 25%);
+    padding: 10vmin;
+}
+
+.page5 h1{
+    display: inline-block;
+    font-size: 7vmin;
+    font-family: "Montserrat";
+    color: white;
+    margin-left: 10vmax;
+}
+
+.page5 img{
+    height: 35vmax;
+    width: 18vmax;
+    margin-left: 7vmax;
+}
+
+@media screen and (max-width:415px){
+    .page5{
+        background: linear-gradient(to bottom, #ffffff, #ffffff 40%, #ee5d30 20%, #ee5d30 80%, #ffffff 20%);
+    }
+    .page5 h1{
+        color: black;
+        text-align: center;
+        margin-left: 20vmin;
+    }
+    .page5 img{
+        margin-top: 5vmin;
+        margin-left: 20vmin;
+    }
+}
