@@ -18,7 +18,7 @@ function App() {
   return (
 	<Router>
 	<div className="App">
-	    <nav class="navbar navbar-expand-lg bg-white p-2 position-fixed w-100 z-2">
+	    <nav class="navbar navbar-expand-lg bg-white w-100 z-2">
             <div class="container-fluid">
               <div class="mx-5 extra"></div>
               <div class="logo">
