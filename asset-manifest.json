@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.861ebbd1.css",
+    "main.js": "/static/js/main.cceabf73.js",
+    "static/js/787.a74095cd.chunk.js": "/static/js/787.a74095cd.chunk.js",
+    "static/media/man.png": "/static/media/man.120d59dda14b51a8ed40.png",
+    "static/media/tablet.png": "/static/media/tablet.a9b73f511af871d46732.png",
+    "static/media/back.png": "/static/media/back.c9d1018d96094eede4ca.png",
+    "static/media/servicepic.png": "/static/media/servicepic.8c681a45c7006f7c0f69.png",
+    "static/media/blogimg7.png": "/static/media/blogimg7.fafb733ec3a5ed3c15ae.png",
+    "static/media/blogimg1.png": "/static/media/blogimg1.0e223e0394e66b601344.png",
+    "static/media/blogimg5.png": "/static/media/blogimg5.c4c3008dc4b3d06f1e0b.png",
+    "static/media/blogimg6.png": "/static/media/blogimg6.2f484644fe956e4b65c1.png",
+    "static/media/blogimg8.png": "/static/media/blogimg8.fd5381d89029541f674e.png",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/blogimg2.png": "/static/media/blogimg2.0bab082f557913fe9d77.png",
+    "static/media/page2.jpg": "/static/media/page2.eecea0b19b0022ff6a4d.jpg",
+    "static/media/blogimg3.png": "/static/media/blogimg3.94c281fabf9a39cd0a62.png",
+    "static/media/blogimg4.png": "/static/media/blogimg4.5b44332fa9bdec05e436.png",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/AvantGarde CE Regular.ttf": "/static/media/AvantGarde CE Regular.d94b762f9f11b4cd9fa1.ttf",
+    "static/media/LemonMilk.ttf": "/static/media/LemonMilk.e185ed20ec03e6959b73.ttf",
+    "index.html": "/index.html",
+    "main.861ebbd1.css.map": "/static/css/main.861ebbd1.css.map",
+    "main.cceabf73.js.map": "/static/js/main.cceabf73.js.map",
+    "787.a74095cd.chunk.js.map": "/static/js/787.a74095cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.861ebbd1.css",
+    "static/js/main.cceabf73.js"
+  ]
+}
