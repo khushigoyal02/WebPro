@@ -18,7 +18,7 @@ function App() {
   return (
 	<Router>
 	<div className="App">
-	    <nav class="navbar navbar-expand-lg bg-white w-100 z-2">
+	    <nav class="navbar navbar-expand-lg bg-white w-100">
             <div class="container-fluid">
               <div class="mx-5 extra"></div>
               <div class="logo">
@@ -102,7 +102,7 @@ function App() {
       <hr className="text-white border-3"/>
       <ul class="nav position-relative start-50 translate-middle-x">
       <li class="nav-item">
-        <a class="nav-link link-light text-decoration-none fw-bold mx-2" href="#">@2023 Webpro. All rights reserved.</a>
+        <a class="nav-link link-light text-decoration-none fw-bold mx-2" href="#">@2023 WebPro. All rights reserved.</a>
       </li>
 
         <li class="nav-item first">
