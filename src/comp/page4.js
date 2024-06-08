@@ -4,7 +4,7 @@ import './page4.css';
 
 const Page4 = () => {
   return (
-    <div className="page4 text-white mt-5 row">
+    <div className="page4 text-white row container-fluid p-0">
       <div className="col-md-6 left p-5">
       <h1>TYPES OF <br/> SERVICES OFFERED</h1>
           <div class="container grid">
@@ -32,8 +32,8 @@ const Page4 = () => {
             </div>
           </div>
           </div>
-          <div className="col-md-6">
-          <img src={Ipad} className="img-fluid"/>
+          <div className="col-md-6 p-0">
+          <img src={Ipad} alt="" className="img-fluid"/>
           </div>
     </div>
   )

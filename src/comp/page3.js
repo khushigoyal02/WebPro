@@ -3,7 +3,7 @@ import './page3.css';
 
 const Page3 = () => {
   return (
-    <div className="page3">
+    <div className="page3 container-fluid">
       <div class="extra"></div>
       <div className="row">
       <div class="col-md-4 text-center">

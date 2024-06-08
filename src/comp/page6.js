@@ -4,9 +4,9 @@ import pic from '../images/servicepic.png';
 
 const Page6 = () => {
   return (
-    <div className="page6 text-white row">
-      <div className="col-md-6">
-        <img src={pic} className="img-fluid"/>
+    <div className="page6 text-white row container-fluid p-0">
+      <div className="col-md-6 p-0">
+        <img src={pic} alt="" className="img-fluid"/>
       </div>
           <div class="col-md-6 right p-5">
           <h1>HOW WE CAN <br/> HELP YOUR BRAND?</h1>

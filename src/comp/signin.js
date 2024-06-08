@@ -25,7 +25,7 @@ export default function SignIn()
   function callonclick(){ action==="Sign In" ? si() : su() }
 
   function clear(){
-	{action=="Sign In" ? setAction("Sign Up") : setAction("Sign In")}
+	{action==="Sign In" ? setAction("Sign Up") : setAction("Sign In")}
 	if (action==="Sign In"){setName("");}
 	setEmail("");
 	setPassword("");
@@ -33,7 +33,7 @@ export default function SignIn()
   }
 	
     return(
-	    <div className="row mt-5 signin">
+	    <div className="row signin container-fluid p-0">
 			<div className="col-md-6 left">
         <h1 className="text-center fw-bold">{action}</h1>
         {action==="Sign In" ? <div></div> :
@@ -70,7 +70,7 @@ export default function SignIn()
 				{
 					clickst && 
 					( <div className="signin-text text-center">
-              {action=="Sign In" ? <p></p>:
+              {action==="Sign In" ? <p></p>:
 					    <p> Name :- {name} </p> }
 						<p> Email :- {email} </p>
 						<p> Password :- {password} </p>

@@ -22,7 +22,7 @@ function App() {
             <div class="container-fluid">
               <div class="mx-5 extra"></div>
               <div class="logo">
-                <img src={logo} className="mx-1"/>
+                <img src={logo} alt="" className="mx-1"/>
                 <h1>WEBPRO</h1>
               </div>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,10 +91,10 @@ function App() {
           <div class="col">
           <h3 className="text-white fw-bold">Follow us on social</h3>
           <div className="d-flex mt-3">
-            <a href="https://twitter.com" ><img src={twitter} className="mx-2"/></a>
-            <a href="https://www.facebook.com"><img src={facebook} className="mx-2"/></a>
-            <a href="https://in.linkedin.com"><img src={linkedin} className="mx-2"/></a>
-            <a href="https://www.instagram.com"><img src={instagram} className="mx-2"/></a>
+            <a href="https://twitter.com" ><img src={twitter} alt="" className="mx-2"/></a>
+            <a href="https://www.facebook.com"><img src={facebook} alt="" className="mx-2"/></a>
+            <a href="https://in.linkedin.com"><img src={linkedin} alt="" className="mx-2"/></a>
+            <a href="https://www.instagram.com"><img src={instagram} alt="" className="mx-2"/></a>
           </div>
           </div>
         </div>

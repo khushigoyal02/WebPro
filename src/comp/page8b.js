@@ -29,7 +29,7 @@ const Page8b = () => {
   }
 
   return (
-    <div className="page8b row">
+    <div className="page8b row container-fluid">
       <div class="col-md-6 p81 p-5">
         <h1 className="fw-bold">CONTACT INFORMATION</h1>
     <div class="email my-2">

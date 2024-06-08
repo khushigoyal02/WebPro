@@ -4,9 +4,9 @@ import './page2.css';
 
 const Page2 = () => {
   return (
-    <div className="page2 row text-white mt-5">
+    <div className="page2 row text-white container-fluid p-0">
         <div class="col-md-6">
-          <img src={crbg} class="img-fluid"/>
+          <img src={crbg} alt="" class="img-fluid"/>
         </div>
         <div class="col-md-6 p-5">
           <h1>WHAT IS A <br/> CREATIVE AGENCY?</h1>
